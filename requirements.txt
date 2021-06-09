@@ -5,7 +5,7 @@ alabaster==0.7.12
 argh==0.26.2
 
 asgiref==3.3.4
-asn1crypto @ file:///tmp/build/80754af9/asn1crypto_1596577642040/work
+
 astroid @ file:///tmp/build/80754af9/astroid_1592495912941/work
 astropy==4.0.2
 async-generator==1.10
