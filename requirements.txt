@@ -6,7 +6,7 @@ argh==0.26.2
 
 asgiref==3.3.4
 
-astroid @ file:///tmp/build/80754af9/astroid_1592495912941/work
+
 astropy==4.0.2
 async-generator==1.10
 atomicwrites==1.4.0
