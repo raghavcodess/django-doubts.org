@@ -79,8 +79,7 @@ jmespath==0.10.0
 json5==0.9.5
 
 
-keyring @ file:///tmp/build/80754af9/keyring_1601490835422/work
-kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1604014535162/work
+
 lazy-object-proxy==1.4.3
 libarchive-c==2.9
 llvmlite==0.34.0
