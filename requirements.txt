@@ -78,12 +78,7 @@ jmespath==0.10.0
 
 json5==0.9.5
 
-jupyter==1.0.0
 
-jupyter-core==4.6.3
-jupyterlab==2.2.6
-jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
-jupyterlab-server @ file:///tmp/build/80754af9/jupyterlab_server_1594164409481/work
 keyring @ file:///tmp/build/80754af9/keyring_1601490835422/work
 kiwisolver @ file:///tmp/build/80754af9/kiwisolver_1604014535162/work
 lazy-object-proxy==1.4.3
