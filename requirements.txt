@@ -33,7 +33,7 @@ click==7.1.2
 
 
 
-conda==4.10.1
+
 conda-build==3.20.5
 
 conda-verify==3.4.2
