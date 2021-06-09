@@ -1,0 +1,481 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+
+<div class="home container-fluid" >
+
+
+
+ {% load static %}
+  <img class="mainImg" src="{% static 'doubts/header.png' %}">
+
+  <div class="title">
+    <h1 style="font-weight: bolder; color: red; font-size: 3.5rem;">COVID-19</h1>
+    <h3>Prevent the Spread</h3>  
+	<h3>Stay at Home, Stay Safe</h3>
+    <p>The best way to prevent and slow down transmission is be well informed about the <br>COVID-19 virus. Protect
+      yourself and others from infection by washing your hands <br>at-least 20sec and not touching your face.</p>
+    <a href="#section2"  type="button" class="homeBtn btn btn-info btn-lg btn-block"><span>How to Protect </span> <img class="icon"
+        src="https://image.flaticon.com/icons/png/512/2927/2927389.png" alt="icon"></a>
+    <a href="#section1" type="button" class="homeBtn btn btn-primary"><span>About COVID-19</span></a>
+
+
+  </div>
+</div>
+
+
+<div class="about container" id="section1">
+
+  
+  <img class="aboutPageImg" src=" {% static 'doubts/aboutPageImg.png' %} ">
+
+
+  <div class="aboutTitle">
+  	
+
+    <h5 style="color:red">About the disease</h5>
+    <h1>Coronavirus (COVID-19)</h1>
+    <p style="font-size: 12px;">
+      <h4>COVID-19 is a new illness that can affect your <br> lungs and airways.</h4>It's caused by a virus called
+      coronavirus. It was discovered in December 2019 in Wuhan, Hubei, China. <br> 
+
+      Common signs of infection include respiratory symptoms, fever, cough, <br> shortness of breath and breathing
+      difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney
+      failure and even death. <br> 
+
+      Standard recommendations to prevent infection spread include regular hand washing, covering mouth and nose
+      when coughing and sneezing, thoroughly cooking meat and eggs. Avoid close contact with anyone showing
+      symptoms <br> of respiratory illness such as coughing and sneezing.
+    </p>
+
+    <div class="row">
+
+      <a class="col-md-6 aboutBtn " href="https://www.google.com/search?q=covid+19&oq=covid+19+&aqs=chrome.0.69i59l4j0i131i433j69i60l3.5477j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8"> <strong>How coronavirus is spread?</strong> </a>
+      <a class="col-md-6 aboutBtn" href="https://www.google.com/search?q=covid+19&oq=covid+19+&aqs=chrome.0.69i59l4j0i131i433j69i60l3.5477j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8"><strong>Symptoms of coronavirus?</strong> </a>
+      <a class="col-md-6 aboutBtn" href="https://www.google.com/search?q=covid+19&oq=covid+19+&aqs=chrome.0.69i59l4j0i131i433j69i60l3.5477j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8"><strong>How to Prevent &amp; Protect?</strong> </a>
+      <a class="col-md-6 aboutBtn" href="https://www.google.com/search?q=covid+19&oq=covid+19+&aqs=chrome.0.69i59l4j0i131i433j69i60l3.5477j0j7&client=ubuntu&sourceid=chrome&ie=UTF-8"><strong> Questions &amp; answers?</strong></a>
+
+
+    </div>
+
+
+  </div>
+
+</div>
+
+<!-- <------------Spred--------------------------------------> -->
+
+<div class=" spred container-fluid" id="nav2">
+
+  <h5 style="color:red">How coronavirus is spread</h5>
+  <h1>Transmission of COVID-19</h1>
+  <p>Because it's a new illness, we do not know exactly how coronavirus spreads <br> from person to person. Similar
+    viruses are spread in cough droplets.</p>
+
+
+  <div class="card-deck row" style="margin-left:-155px">
+    <div class="card col-md-4" style="width: 22rem;">
+
+      
+      <img class="card-img-top" src="{% static 'doubts/spreadImg1.png' %}">
+
+      <div class="card-body">
+        <h5 class="card-title">Person-to-person spread as close contact with infected</h5>
+        <p class="card-text">The coronavirus is thought to spread <br> mainly from person to person. This can <br>
+          happen between people who are in close contact with one another.</p>
+
+      </div>
+    </div>
+    <div class="card col-md-4" style="width: 22rem;">
+      <img class="card-img-top" src="{% static 'doubts/spreadImg2.png' %}">
+      <div class="card-body">
+        <h5 class="card-title">Touching or contact with infected surfaces or objects </h5>
+        <p class="card-text">A person can get COVID-19 by touching <br> a surface or object that has the virus on <br>
+          it and then touching their own mouth, <br> nose, or possibly their eyes.</p>
+      </div>
+    </div>
+    <div class="card col-md-4" style="width: 22rem;">
+      <img class="card-img-top" src="{% static 'doubts/spreadImg3.png' %}">
+      <div class="card-body">
+        <h5 class="card-title">Droplets that from infected person coughs or sneezes</h5>
+        <p class="card-text">The coronavirus is thought to spread <br> mainly from person to person. This can <br>
+          happen between people who are in close contact with one another.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <a href="#section3" style="margin-top: 40px;" type="button" class="homeBtn btn btn-primary"><span> <img width="40px"
+        height="40px;" src="https://image.flaticon.com/icons/png/512/3240/3240831.png" alt=""> Have a question about
+      spreding?</span>-></a>
+
+
+</div>
+
+<!-- <===========================================Symptoms==================================================> -->
+
+<div class="symptoms container-fluid" style="margin-left:-50px" id="nav1">
+
+  
+  <img class="symImgMain" src="{% static 'doubts/symptomsImg.png' %}">
+
+  <div class="symTitle">
+
+    <h5 style="color: red;">What are the symptoms of COVID-19?</h5>
+    <h1>Symptoms of Coronavirus</h1>
+    <p> The most common symptoms of COVID-19 are fever, tiredness, and dry <br> cough. Some patients may have aches and
+      pains, nasal congestion, runny <br> nose, sore throat or diarrhea. These symptoms are usually mild and begin <br>
+      gradually. Also the symptoms may appear 2-14 days after exposure.</p>
+
+    <div class="symPts">
+      
+      <img class="sym-img" src="{% static 'doubts/symImg1.png' %}">
+
+      <P><strong style="color:blue">High Fever</strong>– this means you feel hot to touch on your chest <br> or back
+        (you do not need to measure your temperature). It is <br> a common sign and also may appear in 2-10 days if you
+        <br> affected.</P>
+
+
+    </div>
+
+    <div class="symPts">
+      <img class="sym-img" src="{% static 'doubts/symImg2.png' %}">
+
+      <P><strong style="color:blue">Continuous cough</strong>– this means coughing a lot for more than <br> an hour, or
+        3 or more coughing episodes in 24 hours (if you <br> usually have a cough, it may be worse than usual).</P>
+
+
+    </div>
+    <div class="symPts">
+      <img class="sym-img" src="{% static 'doubts/symImg3.png' %}">
+
+      <P><strong style="color:blue">Difficulty breathing</strong>Around 1 out of every 6 people who <br> gets COVID-19
+        becomes seriously ill and develops difficulty <br> breathing or shortness of breath.</P>
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+</div>
+
+</div>
+
+
+</div>
+
+<!-- <===========================================Prevention==================================================> -->
+
+<div class="prevention container-fluid" id="section2">
+
+  
+  <img class="preImgMain" src="{% static 'doubts/preventionImg.png' %}">
+
+  <div class="prevention-Title">
+
+    <h5 style="color: red;">How to Protect Yourself?</h5>
+    <h1>Prevention & Advice</h1>
+    <p> There is currently no vaccine to prevent Coronavirus (COVID-19. <strong> The best way to prevent illness is to
+        avoid being exposed to this virus. </strong> </p>
+
+    <div class="prePts">
+      
+      <img class="pre-img" src="{% static 'doubts/preImg1.png' %}">
+
+      <P><strong style="color:blue">Soap on Hand</strong> <br> Regularly and thoroughly clean your hands with an
+        alcohol-based hand rub or wash them with soap and water for at least 20 seconds.</P>
+
+
+    </div>
+
+    <div class="prePts">
+      <img class="pre-img" src="{% static 'doubts/preImg2.png' %}">
+
+      <P><strong style="color:blue">Maintain social distancing</strong> <br> Maintain at least 1 metre (3 feet) distance
+        between yourself & anyone who is coughing or sneezing. If you are too close, get chance to infected.</P>
+
+
+    </div>
+    <div class="prePts">
+      <img class="pre-img" src="{% static 'doubts/preImg3.png' %}">
+
+      <P><strong style="color:blue">Avoid touching face</strong> <br> Hands touch many surfaces and can pick up viruses.
+        So, hands can transfer the virus to your eyes, nose or mouth and can make you sick. </P>
+
+
+    </div>
+
+    <div class="prePts">
+      <img class="pre-img" src="{% static 'doubts/preImg3.png' %}">
+
+      <P><strong style="color:blue">Practice respiratory hygiene</strong> <br>Maintain good respiratory hygiene as
+        covering your mouth & nose with your bent elbow or tissue when cough or sneeze.</P>
+
+
+    </div>
+    <p id="section3">Q&A on Coronavirus</p>
+
+    <a href="create_question" type="button" class="homeBtn btn  btn-lg btn-block"><span> Ask a doctor </span> </a>
+    <a href="view_question" type="button" class="homeBtn btn "><span>FAQ</span></a>
+
+
+
+  </div>
+
+</div>
+
+</div>
+
+
+</div>
+
+<!-- <==================================How can we help ===========================================> -->
+
+<!-- <======================================help============================================> -->
+
+
+
+<div class="help" id="nav4">
+
+
+  
+  <img class="help-img" src="{% static 'doubts/help.jpg' %}">
+
+  <div class="help-title">
+
+    <span style="color:white;  background-color:#f86168;"> HELP </span>
+    <h2 style="margin-top:25px; margin-bottom:25px;" >How can we Help others ?</h2>
+    <p  > <strong><em> "Ultimately, the greatest lesson that COVID-19 can teach humanity <br> is that we are all in this together.  " <br> </em> </strong>
+      <br> As the cases are rising day by day, so are rumors. <br> <br>
+       Help by contributing valuable information. <br>
+       <b>e.g. oxygen cylinder and bed availablity. 
+      </b> <br> <br>
+      Help by sharing your personal Covid-19 expreience. 
+    </p> <br>
+
+    <a href="create_notice" class="homeBtn btn  btn-lg btn-block"><span> Share information </span> </a>
+    <a href="view_notice" class="homeBtn btn "><span> View information </span> </a>
+
+
+    
+  </div>
+</div>
+
+
+
+<!-- <======================================Do and don't============================================> -->
+
+<div id="nav3" class="do container-fluid" style="background-color:#f4f9f4 ;margin-top: 10px;">
+
+  <h5 style="color:red"> Do’s & Don’ts</h5>
+  <h1> Do’s & Don’ts</h1>
+  <p>The best thing you can do now is plan for how you can adapt your daily routine. Take few steps to <br> protect yourself
+    as Clean your hands often, Avoid close contact, Cover coughs and sneezes, clean daily <br> used surfaces etc. The best
+    way to prevent illness is to avoid being exposed to this virus.
+
+  </p>
+  <br>
+
+  <div class="row box" style="margin-left: 45px;">
+
+    <div class="do-box">
+      
+     
+
+      <div class="do-title">
+        <h5>Wash Your Hands</h5>
+        <p>The best thing you can do now is plan for how.</p>
+
+      </div>
+     
+    </div>
+
+    <div class=" do-box">
+      
+
+      <div class="do-title">
+        <h5>Avoid Close Contact</h5>
+        <p>The best thing you can do now is plan for how.</p>
+
+      </div>
+     
+    </div>
+
+
+
+
+  </div>
+  <br>
+
+  <div class="row box" style="margin-left: 45px;">
+
+    <div class="do-box">
+      
+      
+
+      <div class="do-title">
+        <h5>Drink Much Water</h5>
+        <p>The best thing you can do now is plan for how.</p>
+
+      </div>
+     
+    </div>
+
+    <div class=" do-box">
+      
+
+      <div class="do-title">
+        <h5>Don't Touch Face</h5>
+        <p>The best thing you can do now is plan for how.</p>
+
+      </div>
+     
+    </div>
+
+
+
+
+  </div>
+  <br>
+
+    <div class="row box" style="margin-left: 45px;">
+
+    <div class="do-box">
+      
+      
+
+      <div class="do-title">
+        <h5>Use Face Mask</h5>
+        <p>The best thing you can do now is plan for how.</p>
+
+      </div>
+     
+    </div>
+
+    <div class=" do-box">
+      
+
+      <div class="do-title">
+        <h5>Social Distancing</h5>
+        <p>The best thing you can do now is plan for how.</p>
+
+      </div>
+     
+    </div>
+
+
+
+
+  </div>
+
+<br>
+
+</div>
+
+
+<!-- <======================================Contact us============================================> -->
+
+
+<div class="contact-us container-fluid" style="margin-bottom:20px;   background-color:white;">
+
+	<div class="row">
+    <div class="col-sm">
+
+	<div class="contact-first-div">
+    <h5 style="color:red">Contact Us</h5>
+    <h2>Question About COVID-19?</h2>
+    <p>If you have any query about coronavirus or you have a health <br> concern, you can contact via our helpline 111
+      or
+      emergency <br> contact number. You can also contact by submitting form.
+
+    </p>
+    <span style="color:white; background-color:#f86168; ">Emergency</span>
+    <span style="color:red;">Coronavirus Helpline</span>
+    <h1 style="margin-top:20px;">+91-11-23978046</h1>
+    <h5>24x7 Medical Help:</h5>
+    <p>Phone : <strong>9779558282</strong></p>
+    <p>Phone : <strong>104</strong></p>
+    <p>For more information and the goverment’s action 
+      plan go to <a style="text-decoration: none;"  target="_blank"
+        href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019?gclid=Cj0KCQjwzYGGBhCTARIsAHdMTQyL1jjB9Oc66wBVdni7WOPaP8t67kV8SO6AjG38b-4dJF0Aixhprc4aAieqEALw_wcB">
+        who.int </a>& <a  style="text-decoration: none;" target="_blank" href="https://www.mygov.in/covid-19">nhs.uk</a> </p>
+
+  	</div>
+    </div>
+
+    <div class="col-sm" >
+    	  <div  class="contact-form contact-form-boxed  ">
+
+    <h1>Get in Touch</h1>
+
+    <form  >
+      <div class="row g-s">
+        <div class="col-12">
+          <div class="form-group"> <input placeholder="Your Name" name="contact-name" type="text"
+              class="form-control required" aria-required="true"></div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group"> <input placeholder="Your Email" name="contact-email" type="email"
+              class="form-control email required" aria-required="true"></div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group"> <input placeholder="Your Phone" name="contact-phone" type="text"
+              class="form-control required" aria-required="true"></div>
+        </div>
+        <div class="col-sm-12">
+          <div class="form-group"><textarea placeholder="Your message" name="contact-message"
+              class="form-control form-textarea required" aria-required="true"></textarea></div>
+        </div>
+        <div class="col-sm-7">
+          <div class="form-group"> <label class="form-label" for="contact-symptom">You have any symptoms?</label>
+            <div class="form-control-select"> <select id="contact-symptom" name="contact-symptom" class="form-control">
+                <option selected="">Yes, I got all the symptoms</option>
+                <option>Yes, I got Few of them.</option>
+                <option>Yes, I got One of them.</option>
+                <option>No, I dont.</option>
+              </select></div>
+          </div>
+        </div>
+        <div class="col-sm-5">
+          <div class="form-group"> <label class="form-label" for="contact-age">Age Range</label>
+            <div class="form-control-select"> <select id="contact-age" name="contact-age" class="form-control">
+                <option selected="">30-39 years</option>
+                <option>20-29 years</option>
+                <option>00-19 years</option>
+              </select></div>
+          </div>
+        </div>
+        <div class="col-sm-4"> <input type="text" class="d-none" name="form-anti-honeypot" value=""> <button
+            type="submit" class="btn btn-primary"><span>Submit</span><em class="icon ni ni-send-alt"></em></button>
+        </div>
+        <div class="col-sm-8 align-self-center text-sm-right">
+          <div class="form-text">You’ve agree our privacy policy by submit the form.</div>
+        </div>
+      </div>
+      <div class="form-results"></div>
+    </form>
+
+
+  </div>
+      
+    </div>
+
+	</div>
+
+  
+
+
+
+
+</div>
+
+
+{% endblock %}

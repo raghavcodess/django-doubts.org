@@ -1,0 +1,54 @@
+  {% extends 'base.html' %}
+
+  {% block content %}
+
+  <br>
+  <div class="container">
+    <br>
+    <br>
+    <h4 style="color:red;">Frequently Asked Questions</h4>
+    <h1>Your Question Answered</h1>
+
+  {% for post in object_list %}
+      <br>
+
+    <button class="accordion"> {{ post.desription }} </button>
+    <div class="panel">
+    <p> {{post.answer}} </p>
+    </div>
+
+    <br>
+
+  {% endfor %}
+  <br>
+  <a href="/" class="btn btn-primary">Back</a>  
+    </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+  
+
+
+
+  {% endblock %}
+
+
+
+
+

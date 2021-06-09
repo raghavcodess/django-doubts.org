@@ -1,0 +1,1 @@
+web: gunicorn doubts.wsgi --log--file -

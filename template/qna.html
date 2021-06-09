@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+
+<br>
+<br>
+
+<p> Ask a question to Doctor</p>
+
+<table>
+
+<form method="POST">{% csrf_token %}
+    
+    {{forms.as_table}}
+     <button  type="submit" value="save" class="btn btn-dark" style="margin-bottom: 10px;">ask doctor</button>
+    <br>
+</form>
+
+</table>
+<br>
+<br>
+  <a href="/" class="btn btn-primary">Back</a> 
+
+</div>
+
+{% endblock %}

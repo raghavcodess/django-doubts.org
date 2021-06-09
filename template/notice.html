@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+<br>
+<br>
+ 
+<p> Share your experience, or any detail which could save a life e.g cylinder Availablity, post Covid experience wtc</p>
+
+<table>
+
+    <form method="POST">
+        {% csrf_token %}
+        {{forms.as_table}}
+
+        <button  type="submit" value="save" class="btn btn-dark">Post</button>
+        
+    </form>
+
+
+</table>
+
+<br>
+  <a href="/" class="btn btn-primary">Back</a> 
+
+</div>
+
+{% endblock %}
+
+type="submit" value="save"
